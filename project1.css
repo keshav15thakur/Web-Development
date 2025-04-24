@@ -1,0 +1,102 @@
+
+
+
+body {
+    background-color: black;
+    color: #333;
+    background-color: url(/asset/img/background.avif);
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    background-color: url(/asset/img/background.avif);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .logo h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    text-align: center;
+    padding:20px;
+    background-color: url(/asset/img/background.avif);
+
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Shop Section */
+.shop {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.shop h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 18px;
+    color: #e1a100;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

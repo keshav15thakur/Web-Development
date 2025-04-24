@@ -1,0 +1,127 @@
+[1:59 PM,
+2/8/2025] jaydev :
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically */
+    justify-content: center;
+    /* Centers the title */
+    background: rgba(3, 19, 240, 0.8);
+    /* Semi-transparent background */
+    color: whitesmoke;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    /* Keeps the header at the top */
+    top: 0;
+    left: 0;
+}
+
+/* Logo/Image Styling */
+.header img {
+    height: 100px;
+    /* Adjust image height */
+    width: 100px;
+    margin-right: auto;
+    /* Pushes the title to the center */
+}
+
+/* Title Styling */
+.header h3 {
+    flex-grow: 1;
+    /* Allows the title to occupy center space */
+    text-align: center;
+    margin-right: 50px;
+    /* Ensures centering by adjusting spacing */
+}
+
+/* Parent Container with Background Image */
+.container {
+    padding: 80px 0px 0px 0px;
+    background-image: url('1.jpg');
+}
+
+.content {
+    padding-top: 60px;
+    display: flex;
+    height: 600px;
+}
+
+/* Personal Section */
+.personal {
+    width: 50%;
+    background-color: rgba(15, 66, 235, 0.3);
+    font-family: 'Georgia', serif;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.education {
+    font-family: Arial, sans-serif;
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Professional Section */
+.professional {
+    width: 50%;
+    color: black;
+    background-color: rgba(15, 66, 235, 0.3);
+    font-family: 'Verdana', sans-serif;
+    padding: 50px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+}
+
+/* Footer Styling */
+#footer {
+    display: flex;
+    justify-content: center;
+    /* Center align icons */
+    align-items: center;
+    background: #22222296;
+    /* Dark background for contrast */
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer Icons */
+#footer a {
+    display: inline-block;
+    /* Ensures spacing works properly */
+    margin: 0 15px;
+    /* Space between icons */
+    text-align: none;
+
+    #footer img {
+        width: 30px;
+        /* Keeps icons uniform */
+        height: 30px;
+        /* Maintains aspect ratio */
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        /*
+Smooth effect */
+    }
+
+    /* Hover Effect */
+    #footer img:hover {
+        transform: scale(1.2);
+        /* Zoom effect */
+        opacity: 0.8;
+        /* Slight transparency */
+    }
+
+    [1:59 PM,
+    2/8/2025] keshav :
